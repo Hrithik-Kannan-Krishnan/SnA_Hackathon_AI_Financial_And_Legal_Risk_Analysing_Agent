@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual env
+.venv/
+venv/
+
+# Env files / secrets
+.env
+*.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local storage / app data (keep repo small)
+storage/
+*.db
+*.sqlite
+*.log
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
