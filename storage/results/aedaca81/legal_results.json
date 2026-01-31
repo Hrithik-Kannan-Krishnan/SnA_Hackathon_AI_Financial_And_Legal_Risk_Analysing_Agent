@@ -1,0 +1,247 @@
+[
+  {
+    "doc_id": "44ada240",
+    "filename": "uniliver.pdf",
+    "router": {
+      "doc_type": "contract",
+      "rationale": "Heuristic route"
+    },
+    "legal": {
+      "risk_level": "Low",
+      "red_flags": [],
+      "clauses": [
+        "2.2",
+        "4.1"
+      ],
+      "evidence": [
+        {
+          "label": "CBM Effective Date will be within six months of announcement of the publication of these Common Draft Terms of Merger in a newspaper that is distributed daily nationwide in the Netherlands",
+          "snippet": "In accordance with section 2:318 Dutch Civil Code, the CBM Effective Date will be within six months of announcement of the publication of these Common Draft Terms of Merger in a newspaper that is distributed daily nationwide in the Netherlands or, if at the end of this six-month period the implementation of the Cross-Border Merger would not be allowed due to a filed creditor opposition, within one month after such opposition has been withdrawn, resolved or lifted by an enforceable court order by the relevant court in the Netherlands.",
+          "note": ""
+        },
+        {
+          "label": "PLC shareholder approval will be sought at the PLC General Meeting for the adoption of the Amended PLC Articles",
+          "snippet": "Pursuant to the Amended PLC Articles: (a) PLC will be granted the discretion to determine that, if PLC is advised that the allotment and/or issue of the New PLC Shares pursuant to Unification would or may infringe the laws of another jurisdiction or would or may require PLC to comply with any governmental or other consent or any registration, filing or other formality with which PLC is unable to comply or compliance with which PLC regards as unduly onerous, any New PLC Shares and New PLC Shares represented by New PLC ADSs allotted and issued to such Overseas Shareholders will be transferred to a person appointed by the Company and sold and the proceeds of such sale (less applicable expenses) will be paid to such Overseas Shareholders.",
+          "note": ""
+        }
+      ],
+      "rationale": "There are no clear red flags in the provided text. The CBM Effective Date provision is standard for cross-border mergers, and the PLC shareholder approval requirement is a necessary step in the merger process. The clauses cited do not indicate any potential risks."
+    },
+    "completeness": {
+      "doc_meta": {
+        "doc_type_guess": "loi",
+        "language": "en",
+        "page_count": 0,
+        "source": "pdf",
+        "ocr_used": false
+      },
+      "entities": {
+        "buyer": {
+          "name": "No fee shall be charged by the Company",
+          "aliases": [],
+          "jurisdiction": "",
+          "entity_type": "company"
+        },
+        "seller": {
+          "name": "Company or any other company in which the Company",
+          "aliases": [],
+          "jurisdiction": "",
+          "entity_type": "company"
+        },
+        "target": {
+          "name": "Notwithstanding any other provision of these articles the Company",
+          "aliases": [],
+          "jurisdiction": "",
+          "entity_type": "company"
+        }
+      },
+      "deal": {
+        "structure": "merger",
+        "signing_date": "11 juni 2020",
+        "closing_date": "",
+        "effective_date": "",
+        "governing_law": "",
+        "venue_forum": "",
+        "defined_terms_present": true,
+        "schedule_or_exhibit_refs_present": true
+      },
+      "price_and_payment": {
+        "purchase_price_present": true,
+        "currency_present": true,
+        "enterprise_value_present": false,
+        "equity_value_present": false,
+        "net_debt_present": false,
+        "working_capital_present": false,
+        "adjustment_mechanism_present": true,
+        "earnout_present": false,
+        "escrow_holdback_present": false,
+        "payment_form": "stock",
+        "evidence_snippets": [
+          "d\n(v) a draft of the Withdrawal Application Form.\nConsiderations concerning these Common Draft Terms of Merger\n(l",
+          "e Unilever Group provided\nalways that appropriate adjustments shall be made in respect of any variation in the",
+          "ented by New PLC\nADSs, in accordance with the CBM Exchange Ratio.\n2\n\n(e) This document comprises the terms of the"
+        ]
+      },
+      "reps_and_warranties": {
+        "section_present": true,
+        "disclosure_schedules_present": false,
+        "mae_mac_present": false,
+        "knowledge_qualifiers_present": false,
+        "rep_topics_hit": {
+          "authority_organisation": true,
+          "capitalisation": true,
+          "financial_statements": true,
+          "undisclosed_liabilities": false,
+          "compliance_with_laws": false,
+          "tax": true,
+          "employment_benefits": true,
+          "ip": false,
+          "material_contracts": false,
+          "litigation_investigations": false,
+          "environmental": true,
+          "anti_corruption_sanctions_aml": false,
+          "data_protection_privacy": false
+        },
+        "evidence_snippets": [
+          "rden verzocht om de\nRaad van Bestuur van de NV te machtigen om alle Bijzondere NV-Aandelen in te kopen.",
+          ", European Union, Netherlands, or UK\ngovernmental authority.\n22.2 Unification is also conditional on there be",
+          ", the Unilever Group will implement an internal reorganisation of certain\nassets and liabilities prior to the CB"
+        ]
+      },
+      "covenants": {
+        "section_present": true,
+        "ordinary_course_present": false,
+        "negative_covenants_present": false,
+        "access_to_info_due_diligence_present": false,
+        "employee_matters_present": false,
+        "confidentiality_noncompete_present": false,
+        "tsa_transition_present": false,
+        "evidence_snippets": [
+          "r website at www.unilever .com/unification/documentsand for inspection during\nnormal business hours on"
+        ]
+      },
+      "closing_conditions": {
+        "section_present": true,
+        "regulatory_approvals_present": true,
+        "third_party_consents_present": false,
+        "shareholder_board_approval_present": true,
+        "no_injunction_present": false,
+        "bring_down_present": false,
+        "deliverables_present": false,
+        "evidence_snippets": [
+          "pon official\nnotice of allotment;\n(o) each of the Clearances having been received (and not revoked) on terms",
+          "ly to these Common Draft\nTerms of Merger.\n4.2 PLC shareholder approval will be sought at the PLC General Meeting for the"
+        ]
+      },
+      "termination_and_remedies": {
+        "termination_rights_present": false,
+        "outside_date_present": false,
+        "break_fee_present": false,
+        "specific_performance_present": false,
+        "remedies_present": false,
+        "evidence_snippets": []
+      },
+      "indemnities_and_limits": {
+        "indemnity_present": true,
+        "survival_present": false,
+        "basket_present": false,
+        "cap_present": true,
+        "escrow_claims_process_present": false,
+        "fraud_carveout_present": false,
+        "rwi_present": false,
+        "evidence_snippets": [
+          "to the holders of the Ordinary Shares.\nINDEMNITY\nIndemnification of Directors\n151 T o the extent permitted by the",
+          "fee but on\nsuch terms (if any) as to evidence and indemnity and to payment of the costs and any exceptional\no",
+          "ERMS OF MERGER\n1 Definitions and construction\n1.1 Capitalised terms have the meaning set out in Annex 1"
+        ]
+      },
+      "financials": {
+        "financial_statements_present": true,
+        "audited_unaudited_present": true,
+        "standard_present": "other",
+        "period_covered_present": true,
+        "ebitda_present": false,
+        "revenue_recognition_present": false,
+        "forecast_budget_present": false,
+        "qoe_present": false,
+        "evidence_snippets": [
+          "the credit\nof any reserve or fund (including the profit and loss account) whether or not the same is available\nfor",
+          "n\n\u201cfinancial liabilities\u201d in the latest published audited consolidated accounts of the Unilever Group,\nbut"
+        ]
+      },
+      "capital_and_debt": {
+        "cap_table_present": false,
+        "securities_present": true,
+        "debt_facility_present": true,
+        "liens_security_interest_present": true,
+        "defaults_waivers_present": true,
+        "payoff_release_present": false,
+        "evidence_snippets": [
+          "ing shares, the Directors may\noffer, allot, grant options over or otherwise deal with or dispose of shares",
+          "ubstitution of the word\n\u201cstock\u201d for shares.\nSHARE WARRANTS TO BEARER\nIssue of share warrants\n47 The Company",
+          "applied in or towards payment or discharge of the debt or liability in respect\nof which the lien exists"
+        ]
+      },
+      "tax": {
+        "tax_returns_present": false,
+        "tax_audits_disputes_present": true,
+        "withholding_present": false,
+        "vat_gst_present": false,
+        "transfer_pricing_present": false,
+        "tax_indemnity_covenant_present": false,
+        "evidence_snippets": [
+          "ity in respect of taxation\nor responsible for the assessment, administration or collection of taxation or enfo",
+          "r any\ncombination of) accelerated book builds, private placements or other alternative sale arrangement",
+          "nded NV Articles. Pursuant to such amendment, amongst other things: (i) a formula, as referred to\nin se"
+        ]
+      },
+      "litigation_and_allegations": {
+        "litigation_present": true,
+        "allegations_accusations_present": false,
+        "regulatory_investigation_present": false,
+        "demand_letters_present": false,
+        "settlement_consent_order_present": true,
+        "contingent_liability_reserves_present": true,
+        "whistleblower_internal_investigation_present": false,
+        "evidence_snippets": [
+          "; and\n(p) no law or order prohibiting, or pending lawsuit seeking to prohibit, the Cross-Border Merger\nhavi",
+          "o the\nnearest euro cent). Any such cash payment unclaimed after a period of five years from the CBM\nEffec",
+          "2:326(d) to (f) Dutch Civil Code do not apply.\n17 Settlement, trading and dividends\nSubject to the Cross-Borde"
+        ]
+      },
+      "compliance": {
+        "anti_bribery_present": false,
+        "aml_kyc_sanctions_present": false,
+        "competition_antitrust_present": true,
+        "privacy_data_protection_present": false,
+        "cybersecurity_breach_present": false,
+        "export_controls_present": false,
+        "environment_hs_present": true,
+        "evidence_snippets": [
+          "ever N.V ., a public limited liability company\n(naamloze vennootschap) incorporated under the laws of t",
+          "any central bank, ministry, court or competition, antitrust, national,\nsupranational or supervisory body or o",
+          "vernmental, supranational, statutory, regulatory, environmental or investigative body,\ncourt, trade agency, assoc"
+        ]
+      },
+      "evidence_strength": {
+        "numbers_present": true,
+        "dates_present": true,
+        "percentages_present": false,
+        "defined_term_pattern_present": true,
+        "schedule_exhibit_pattern_present": true
+      },
+      "scores": {
+        "bucket_coverage_score": 70,
+        "evidence_strength_score": 26,
+        "overall_score": 96,
+        "classification": "accept_ok"
+      },
+      "flags": {
+        "likely_teaser_or_summary": false,
+        "missing_core_buckets": [],
+        "generic_language_without_details": false,
+        "unsupported_no_litigation_claim": false
+      }
+    }
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "doc_id": "c87ddca8",
+    "filename": "ilide.info-autonomy-annual-report-2010-pdf-pr_be4c86bea1c737bf24e5c466ac879ae4.pdf",
+    "router": {
+      "doc_type": "contract",
+      "rationale": "Heuristic route"
+    },
+    "legal": {
+      "risk_level": "Low",
+      "red_flags": [],
+      "clauses": [
+        "consolidation of existing areas of application",
+        "expansion into new sectors"
+      ],
+      "evidence": [
+        {
+          "label": "change of control termination",
+          "snippet": "",
+          "note": ""
+        },
+        {
+          "label": "consent required",
+          "snippet": "",
+          "note": ""
+        },
+        {
+          "label": "exclusivity/non-compete",
+          "snippet": "",
+          "note": ""
+        },
+        {
+          "label": "very high penalties",
+          "snippet": "",
+          "note": ""
+        },
+        {
+          "label": "one-sided indemnity caps",
+          "snippet": "",
+          "note": ""
+        }
+      ],
+      "rationale": "Based on the provided contract/ M&A legal text, there are no clear red flags indicating high risk. The company has a strong track record of growth and innovation, with a focus on providing world-leading technology that takes advantage of the fundamental shift from structured to unstructured information."
+    }
+  }
+]

@@ -1,0 +1,13 @@
+streamlit>=1.35
+python-dotenv>=1.0
+requests>=2.31
+qdrant-client>=1.10
+pydantic>=2.7
+pypdf
+numpy
+crewai 
+crewai-toolslitellm>=1.0
+python-docx 
+python-pptx 
+pandas 
+openpyxl
