@@ -40,7 +40,7 @@ from src.storage.zip_unpack import unpack_zip
 from src.ingestion.ingest_rag import ingest_file_to_qdrant
 from src.db.deals_store import upsert_deal
 
-st.set_page_config(page_title="DealRoom Copilot (MVP)", layout="wide")
+st.set_page_config(page_title="Red Flag AI", layout="wide")
 settings = get_settings()
 
 @st.cache_resource
@@ -48,8 +48,8 @@ def qdrant_client():
     return get_qdrant_local_client(settings.qdrant_path)
 
 
-# ✅ Create ONE Qdrant client for the whole app run
-st.title("DealRoom Copilot (MVP)")
+# Create ONE Qdrant client for the whole app run
+st.title("Red Flag AI")
 
 # ---- Deal selector (global) ----
 _deals = load_deals()
@@ -92,7 +92,7 @@ if "uploaded_docs" not in st.session_state:
 colA, colB = st.columns([2, 1], gap="large")
 
 with colA:
-    st.subheader("Screen 1: Deal list + Upload + RAG ingest")
+    st.subheader("Upload And View Deals")
 
     with st.form("create_deal", clear_on_submit=True):
         deal_name = st.text_input("Deal name", placeholder="e.g., Reliance–Disney Dataroom Demo")
@@ -181,7 +181,7 @@ with colA:
             )
 
         st.divider()
-        st.markdown("### Step 3.1: Ingest queued PDFs into RAG (Qdrant)")
+        st.markdown("Ingest queued PDFs into RAG (Qdrant)")
 
         if st.button("Ingest queued docs into RAG"):
             embed_model = st.session_state.get("EMBED_MODEL", settings.embed_model)
@@ -208,7 +208,7 @@ with colA:
 
             st.info(f"Total chunks ingested this run: {total_chunks}")
 
-        st.markdown("### Step 4.2: Run Router + Agents on queued docs (Legal/Financial)")
+        st.markdown("Run Router + Agents on queued docs (Legal/Financial)")
         st.caption("This stores outputs to storage/results/<deal_id>/ for dashboard tabs.")
 
         if st.button("Run Router + Agents (CrewAI)"):
