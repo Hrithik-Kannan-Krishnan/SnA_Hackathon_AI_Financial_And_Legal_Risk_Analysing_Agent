@@ -1,0 +1,77 @@
+[
+  {
+    "doc_id": "817765a2",
+    "filename": "Divi's Lab.xlsx",
+    "router": {
+      "doc_type": "financial",
+      "rationale": "Financial spreadsheet - heuristic route"
+    },
+    "financial": {
+      "anomalies": [
+        "Big swing in Sales from Q4 2023 to Q1 2024 (from 1868 to 9198) and from Q2 2024 to Q3 2024 (from 2302 to 9850)",
+        "Big swing in Operating Profit from Q4 2023 to Q1 2024 (from 474 to 2984) and from Q2 2024 to Q3 2024 (from 729 to 3266)",
+        "Margin changes: Sales margin decreases from Q4 2023 to Q1 2024 (-54.7%) and from Q2 2024 to Q3 2024 (-58.5%), while Operating Profit margin increases from Q4 2023 to Q1 2024 (52.6%) and from Q2 2024 to Q3 2024 (21.8%)"
+      ],
+      "key_metrics": [
+        "Sales",
+        "Expenses",
+        "Operating Profit",
+        "Other Income",
+        "Depreciation",
+        "Interest",
+        "Profit before tax",
+        "Tax",
+        "Net profit",
+        "EPS",
+        "Price to earning",
+        "Dividend Payout",
+        "OPM"
+      ],
+      "rationale": "These anomalies indicate significant changes in the company's financial performance, which may require further investigation. The key metrics provided here give an idea of the company's financial health and performance over time."
+    },
+    "financial_completeness": {
+      "document_type": "financial_spreadsheet",
+      "financial_statements": {
+        "profit_and_loss_present": true,
+        "balance_sheet_present": true,
+        "cash_flow_present": true,
+        "notes_present": false
+      },
+      "performance_metrics": {
+        "sales_revenue_present": true,
+        "expenses_present": true,
+        "net_profit_present": true,
+        "eps_present": true,
+        "ebitda_present": true
+      },
+      "period_evidence": {
+        "fy_ending_present": false,
+        "quarterly_dates_present": false,
+        "monthly_periods_present": false,
+        "year_references_present": true
+      },
+      "numeric_evidence": {
+        "substantial_numbers_present": true,
+        "currency_amounts_present": false,
+        "percentages_present": false,
+        "ratios_present": true
+      },
+      "scores": {
+        "financial_statements_score": 30,
+        "performance_metrics_score": 25,
+        "period_evidence_score": 8,
+        "numeric_content_score": 11,
+        "overall_score": 74,
+        "classification": "accept_with_warnings"
+      },
+      "flags": {
+        "no_financial_statements": false,
+        "insufficient_performance_metrics": false,
+        "missing_period_evidence": false,
+        "minimal_numeric_content": false,
+        "likely_cover_page_only": false,
+        "likely_notes_only": false
+      }
+    }
+  }
+]

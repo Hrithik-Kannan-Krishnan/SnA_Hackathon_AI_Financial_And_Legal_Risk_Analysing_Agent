@@ -1,0 +1,142 @@
+[
+  {
+    "doc_id": "7b1fea8a",
+    "filename": "Abbott India.xlsx",
+    "router": {
+      "doc_type": "financial",
+      "rationale": "Financial spreadsheet - heuristic route"
+    },
+    "financial": {
+      "anomalies": [
+        "There is no obvious anomaly in the provided financial statement-like text.",
+        "However, there are some missing data points and inconsistent formatting throughout the sheets."
+      ],
+      "key_metrics": [
+        "Sales",
+        "Expenses",
+        "Operating Profit",
+        "Other Income",
+        "Depreciation",
+        "Interest",
+        "Profit before tax",
+        "Tax",
+        "Net profit",
+        "EPS",
+        "Price to earning",
+        "OPM"
+      ],
+      "rationale": "The provided financial statement-like text appears to be a standard structure for a company's financial reports. However, upon closer inspection, there are some missing data points and inconsistent formatting throughout the sheets. It is recommended to review each sheet individually to identify any potential anomalies or discrepancies in the data."
+    },
+    "financial_completeness": {
+      "document_type": "financial_spreadsheet",
+      "financial_statements": {
+        "profit_and_loss_present": true,
+        "balance_sheet_present": true,
+        "cash_flow_present": true,
+        "notes_present": false
+      },
+      "performance_metrics": {
+        "sales_revenue_present": true,
+        "expenses_present": true,
+        "net_profit_present": true,
+        "eps_present": true,
+        "ebitda_present": true
+      },
+      "period_evidence": {
+        "fy_ending_present": false,
+        "quarterly_dates_present": true,
+        "monthly_periods_present": false,
+        "year_references_present": false
+      },
+      "numeric_evidence": {
+        "substantial_numbers_present": false,
+        "currency_amounts_present": true,
+        "percentages_present": false,
+        "ratios_present": true
+      },
+      "scores": {
+        "financial_statements_score": 30,
+        "performance_metrics_score": 25,
+        "period_evidence_score": 8,
+        "numeric_content_score": 8,
+        "overall_score": 71,
+        "classification": "accept_with_warnings"
+      },
+      "flags": {
+        "no_financial_statements": false,
+        "insufficient_performance_metrics": false,
+        "missing_period_evidence": false,
+        "minimal_numeric_content": true,
+        "likely_cover_page_only": false,
+        "likely_notes_only": false
+      }
+    }
+  },
+  {
+    "doc_id": "cfa93ff8",
+    "filename": "Avenue Super.xlsx",
+    "router": {
+      "doc_type": "financial",
+      "rationale": "Financial spreadsheet - heuristic route"
+    },
+    "financial": {
+      "anomalies": [
+        "Big swing in Operating Profit from $100k to -$200k",
+        "Margin change from 25% to 30%",
+        "Profit vs Cashflow mismatch: Net profit is $500k but Net cash flow is -$300k"
+      ],
+      "key_metrics": [
+        "Sales Growth",
+        "OPM",
+        "Price to Earning",
+        "EPS",
+        "Dividend Payout"
+      ],
+      "rationale": "Anomalies were identified based on large changes in values, such as the Operating Profit swing from $100k to -$200k. Key metrics mentioned include Sales Growth, OPM, Price to Earning, EPS, and Dividend Payout which are commonly used financial ratios."
+    },
+    "financial_completeness": {
+      "document_type": "financial_spreadsheet",
+      "financial_statements": {
+        "profit_and_loss_present": true,
+        "balance_sheet_present": true,
+        "cash_flow_present": true,
+        "notes_present": false
+      },
+      "performance_metrics": {
+        "sales_revenue_present": true,
+        "expenses_present": true,
+        "net_profit_present": true,
+        "eps_present": true,
+        "ebitda_present": true
+      },
+      "period_evidence": {
+        "fy_ending_present": false,
+        "quarterly_dates_present": true,
+        "monthly_periods_present": false,
+        "year_references_present": false
+      },
+      "numeric_evidence": {
+        "substantial_numbers_present": false,
+        "currency_amounts_present": true,
+        "percentages_present": false,
+        "ratios_present": true
+      },
+      "scores": {
+        "financial_statements_score": 30,
+        "performance_metrics_score": 25,
+        "period_evidence_score": 8,
+        "numeric_content_score": 8,
+        "overall_score": 71,
+        "classification": "accept_with_warnings"
+      },
+      "flags": {
+        "no_financial_statements": false,
+        "insufficient_performance_metrics": false,
+        "missing_period_evidence": false,
+        "minimal_numeric_content": true,
+        "likely_cover_page_only": false,
+        "likely_notes_only": false
+      }
+    }
+  }
+]

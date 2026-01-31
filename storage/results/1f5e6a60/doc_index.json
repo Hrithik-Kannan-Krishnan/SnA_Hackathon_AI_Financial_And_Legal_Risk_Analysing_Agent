@@ -1,0 +1,9 @@
+[
+  {
+    "doc_id": "a9d0fec6",
+    "filename": "Abbott India.xlsx",
+    "stored_path": "storage/blobs/1f5e6a60/a9d0fec6_Abbott India.xlsx",
+    "doc_type": "other",
+    "router_rationale": "Document rejected: [\"HARD_FAIL: No transaction structure: No 'asset purchase/share purchase/merger/acquisition' style hits\"]. Insufficient deal detail - likely teaser/summary/incomplete extract. Coverage: 0/7 buckets."
+  }
+]

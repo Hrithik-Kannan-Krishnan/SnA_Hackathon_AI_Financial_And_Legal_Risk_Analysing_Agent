@@ -1,0 +1,31 @@
+[
+  {
+    "doc_id": "d1e11387",
+    "filename": "ilide.info-autonomy-annual-report-2010-pdf-pr_be4c86bea1c737bf24e5c466ac879ae4.pdf",
+    "router": {
+      "doc_type": "contract",
+      "rationale": "Heuristic route"
+    },
+    "legal": {
+      "risk_level": "Low",
+      "red_flags": [],
+      "clauses": [
+        "exclusivity / non-compete",
+        "one-sided indemnity caps"
+      ],
+      "evidence": [
+        {
+          "label": "Exclusivity / Non-Compete",
+          "snippet": "Although 2010 was a volatile year for many countries, economies and companies, sales of Autonomy\u2019s IDOL continued to grow steadily, as they have done every year since just after the millennium and virtually every year since its founding in 1996.",
+          "note": ""
+        },
+        {
+          "label": "One-Sided Indemnity Caps",
+          "snippet": "Although 2010 was a volatile year for many countries, economies and companies, sales of Autonomy\u2019s IDOL continued to grow steadily, as they have done every year since just after the millennium and virtually every year since its founding in 1996.",
+          "note": ""
+        }
+      ],
+      "rationale": "The text does not contain any explicit changes of control termination or consent required. However, it does mention exclusivity and non-compete clauses, which are commonly used in contracts to prevent competitors from poaching employees or using similar technology."
+    }
+  }
+]

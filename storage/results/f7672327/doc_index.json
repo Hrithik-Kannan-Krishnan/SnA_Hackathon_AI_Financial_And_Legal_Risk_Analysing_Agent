@@ -1,0 +1,16 @@
+[
+  {
+    "doc_id": "7b1fea8a",
+    "filename": "Abbott India.xlsx",
+    "stored_path": "storage/blobs/f7672327/7b1fea8a_Abbott India.xlsx",
+    "doc_type": "financial",
+    "router_rationale": "Financial spreadsheet - heuristic route"
+  },
+  {
+    "doc_id": "cfa93ff8",
+    "filename": "Avenue Super.xlsx",
+    "stored_path": "storage/blobs/f7672327/cfa93ff8_Avenue Super.xlsx",
+    "doc_type": "financial",
+    "router_rationale": "Financial spreadsheet - heuristic route"
+  }
+]

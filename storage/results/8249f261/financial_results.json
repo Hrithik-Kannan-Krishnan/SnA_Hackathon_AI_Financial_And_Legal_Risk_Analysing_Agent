@@ -1,0 +1,67 @@
+[
+  {
+    "doc_id": "ccd2c29b",
+    "filename": "Divi's Lab.xlsx",
+    "router": {
+      "doc_type": "financial",
+      "rationale": "Financial spreadsheet - heuristic route"
+    },
+    "financial": {
+      "anomalies": [
+        "Significant change in Operating Profit from $2179 to $3266 (a swing of $1087) which might be attributed to one-time items or changes in business strategy.",
+        "Profit before tax increased significantly from $2132 to $2514 (a swing of $382) which may indicate a rise in expenses or other factors not accounted for by the provided data.",
+        "Net profit showed an unusual increase from $1576 to $2514 (a swing of $938), suggesting potentially inflated figures, accounting irregularities, or unrecorded revenue."
+      ],
+      "key_metrics": [
+        "EPS: 59.35969868173258",
+        "Price to Earning Ratio: 58.04106281725888",
+        "Dividend Payout: 0.5044416243654822"
+      ],
+      "rationale": "The analysis was conducted on the provided financial statement-like text for Divi's Lab Ltd. Anomalies were identified, including significant changes in operating profit and net profit, suggesting potential accounting irregularities or unrecorded revenue. Key metrics extracted include EPS, Price to Earning Ratio, and Dividend Payout. These findings require further investigation and verification through additional data or sources."
+    },
+    "financial_completeness": {
+      "document_type": "financial_spreadsheet",
+      "financial_statements": {
+        "profit_and_loss_present": true,
+        "balance_sheet_present": true,
+        "cash_flow_present": true,
+        "notes_present": false
+      },
+      "performance_metrics": {
+        "sales_revenue_present": true,
+        "expenses_present": true,
+        "net_profit_present": true,
+        "eps_present": true,
+        "ebitda_present": true
+      },
+      "period_evidence": {
+        "fy_ending_present": false,
+        "quarterly_dates_present": false,
+        "monthly_periods_present": false,
+        "year_references_present": true
+      },
+      "numeric_evidence": {
+        "substantial_numbers_present": true,
+        "currency_amounts_present": false,
+        "percentages_present": false,
+        "ratios_present": true
+      },
+      "scores": {
+        "financial_statements_score": 30,
+        "performance_metrics_score": 25,
+        "period_evidence_score": 8,
+        "numeric_content_score": 11,
+        "overall_score": 74,
+        "classification": "accept_with_warnings"
+      },
+      "flags": {
+        "no_financial_statements": false,
+        "insufficient_performance_metrics": false,
+        "missing_period_evidence": false,
+        "minimal_numeric_content": false,
+        "likely_cover_page_only": false,
+        "likely_notes_only": false
+      }
+    }
+  }
+]

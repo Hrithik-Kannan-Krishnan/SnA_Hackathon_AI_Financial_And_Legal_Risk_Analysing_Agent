@@ -1,0 +1,245 @@
+[
+  {
+    "doc_id": "557bfa50",
+    "filename": "M&A-Reliance-Disney-The-Grand-Ambani-Wedding-of-the-Media-World.pdf",
+    "router": {
+      "doc_type": "contract",
+      "rationale": "Heuristic route"
+    },
+    "legal": {
+      "risk_level": "Low",
+      "red_flags": [],
+      "clauses": [
+        "consent required",
+        "exclusivity/non-compete"
+      ],
+      "evidence": [
+        {
+          "label": "Consent Required",
+          "snippet": "The Scheme of Arrangement among Viacom18, Digital18 and Star, CA (CAA)/64/MB-IV/2024.",
+          "note": ""
+        },
+        {
+          "label": "Exclusivity/Non-compete",
+          "snippet": "This Deal promises access to highly anticipated events across both television and digital platforms, facilitated by JioCinema, RIL\u2019s popular streaming service in India, and Disney+Hotstar.",
+          "note": ""
+        }
+      ],
+      "rationale": "The contract contains provisions that require consent from certain parties, as well as exclusivity/non-compete clauses, which could potentially lead to legal issues if not properly managed."
+    },
+    "completeness": {
+      "doc_meta": {
+        "doc_type_guess": "teaser",
+        "language": "en",
+        "page_count": 0,
+        "source": "pdf",
+        "ocr_used": false
+      },
+      "entities": {
+        "buyer": {
+          "name": "PJ Entertainment  Private Limited",
+          "aliases": [],
+          "jurisdiction": "",
+          "entity_type": "company"
+        },
+        "seller": {
+          "name": "Media Limited",
+          "aliases": [],
+          "jurisdiction": "",
+          "entity_type": "company"
+        },
+        "target": {
+          "name": "Disney The Walt Disney Company",
+          "aliases": [],
+          "jurisdiction": "",
+          "entity_type": "company"
+        }
+      },
+      "deal": {
+        "structure": "merger",
+        "signing_date": "2024-03-08",
+        "closing_date": "2024-03-08",
+        "effective_date": "",
+        "governing_law": "",
+        "venue_forum": "",
+        "defined_terms_present": false,
+        "schedule_or_exhibit_refs_present": false
+      },
+      "price_and_payment": {
+        "purchase_price_present": false,
+        "currency_present": true,
+        "enterprise_value_present": false,
+        "equity_value_present": false,
+        "net_debt_present": false,
+        "working_capital_present": false,
+        "adjustment_mechanism_present": false,
+        "earnout_present": false,
+        "escrow_holdback_present": false,
+        "payment_form": "unknown",
+        "evidence_snippets": [
+          "s in the M&E Industry 10\nCommercial and Financial Considerations 14\nA. Valuation of the Deal 14\nB. How does Disne"
+        ]
+      },
+      "reps_and_warranties": {
+        "section_present": true,
+        "disclosure_schedules_present": false,
+        "mae_mac_present": false,
+        "knowledge_qualifiers_present": false,
+        "rep_topics_hit": {
+          "authority_organisation": false,
+          "capitalisation": false,
+          "financial_statements": false,
+          "undisclosed_liabilities": false,
+          "compliance_with_laws": false,
+          "tax": false,
+          "employment_benefits": true,
+          "ip": false,
+          "material_contracts": false,
+          "litigation_investigations": true,
+          "environmental": false,
+          "anti_corruption_sanctions_aml": false,
+          "data_protection_privacy": false
+        },
+        "evidence_snippets": [
+          "s rapidly \nevolving. Furthermore, digital content benefits from being accessible across a wide range of devi",
+          "T Innovative Lawyers Asia Pacific \nAwards for multiple years. Also ranked amongst the \u2018Most Innovative",
+          "ny  from SEBI further  complicated matters,  with investigations  into alleged financial  improprieties  \nadding"
+        ]
+      },
+      "covenants": {
+        "section_present": false,
+        "ordinary_course_present": false,
+        "negative_covenants_present": false,
+        "access_to_info_due_diligence_present": false,
+        "employee_matters_present": false,
+        "confidentiality_noncompete_present": false,
+        "tsa_transition_present": false,
+        "evidence_snippets": []
+      },
+      "closing_conditions": {
+        "section_present": true,
+        "regulatory_approvals_present": true,
+        "third_party_consents_present": false,
+        "shareholder_board_approval_present": false,
+        "no_injunction_present": false,
+        "bring_down_present": false,
+        "deliverables_present": false,
+        "evidence_snippets": [
+          "ng.  8 Disclosing the transaction\u2019s dependence on regulatory approvals, the timelines required \nfor these approvals, di",
+          "11900-2024-01-04 .\n 17 What does CCI\u2019s anti-trust clearance mean for Disney-RIL merger?, accessible at:  \nhtt"
+        ]
+      },
+      "termination_and_remedies": {
+        "termination_rights_present": false,
+        "outside_date_present": false,
+        "break_fee_present": false,
+        "specific_performance_present": false,
+        "remedies_present": false,
+        "evidence_snippets": []
+      },
+      "indemnities_and_limits": {
+        "indemnity_present": true,
+        "survival_present": false,
+        "basket_present": false,
+        "cap_present": true,
+        "escrow_claims_process_present": false,
+        "fraud_carveout_present": false,
+        "rwi_present": false,
+        "evidence_snippets": [
+          "any third parties  in any professional  or other capacity. The \ninterpretations,  conclusions and anal",
+          "lting company(ies) by virtue of the demerger, otherwise \nthan as a result of the acquisition of the pro"
+        ]
+      },
+      "financials": {
+        "financial_statements_present": false,
+        "audited_unaudited_present": false,
+        "standard_present": "unknown",
+        "period_covered_present": true,
+        "ebitda_present": false,
+        "revenue_recognition_present": false,
+        "forecast_budget_present": true,
+        "qoe_present": false,
+        "evidence_snippets": [
+          "ndful  \nof uncertainties  that could impact those projections, thereby meeting LODR\u2019s requirements for responsi"
+        ]
+      },
+      "capital_and_debt": {
+        "cap_table_present": false,
+        "securities_present": true,
+        "debt_facility_present": false,
+        "liens_security_interest_present": true,
+        "defaults_waivers_present": true,
+        "payoff_release_present": false,
+        "evidence_snippets": [
+          "million- in-termination-penalty-zee-to-seek-legal-options-11705911463157.html .\n 50 Accessible at: https://",
+          "al risks  and identify new opportunities for our clients on a global  \nscale. Simply put, for conglomera",
+          "2.5% (twelve point five percent) (exclusive of surcharge  and education cess). \nIf, however, the undertaki"
+        ]
+      },
+      "tax": {
+        "tax_returns_present": false,
+        "tax_audits_disputes_present": true,
+        "withholding_present": false,
+        "vat_gst_present": false,
+        "transfer_pricing_present": false,
+        "tax_indemnity_covenant_present": false,
+        "evidence_snippets": [
+          "have \nnot been made public yet.\nTo facilitate the assessment of the Deal by CCI, the Parties had identified se",
+          "2024 www.nishithdesai.com\nRanked as the \u2018Most Innovative Indian Law Firm\u2019 in the prestigious FT Innovat",
+          "cific \nAwards for multiple years. Also ranked amongst the \u2018Most Innovative Asia Pacific Law Firm\u2019 in th"
+        ]
+      },
+      "litigation_and_allegations": {
+        "litigation_present": true,
+        "allegations_accusations_present": true,
+        "regulatory_investigation_present": true,
+        "demand_letters_present": false,
+        "settlement_consent_order_present": false,
+        "contingent_liability_reserves_present": true,
+        "whistleblower_internal_investigation_present": false,
+        "evidence_snippets": [
+          "Associates 2024 Provided upon request only    \nDisclaimer\nThis M&A Lab has been prepared solely based on",
+          "termination of negotiations and subsequent \nlegal disputes. 49 \nAnother prominent acquisition  that affecte",
+          "n with alternative proposals from Zee, alongside \nallegations of merger agreement breaches, ultimately led to"
+        ]
+      },
+      "compliance": {
+        "anti_bribery_present": false,
+        "aml_kyc_sanctions_present": false,
+        "competition_antitrust_present": true,
+        "privacy_data_protection_present": false,
+        "cybersecurity_breach_present": false,
+        "export_controls_present": false,
+        "environment_hs_present": false,
+        "evidence_snippets": [
+          "nment  consumption in India,  characterized  by seamless  access to a wealth of entertainment  options.",
+          "Disney and RIL, there are several regulatory and antitrust hurdles they will have \nto cross before this Deal",
+          "ions  \nIII. Analysis\nThe Deal raised significant  competition law issues that were to be carefully  analysed by CCI"
+        ]
+      },
+      "evidence_strength": {
+        "numbers_present": true,
+        "dates_present": true,
+        "percentages_present": true,
+        "defined_term_pattern_present": false,
+        "schedule_exhibit_pattern_present": false
+      },
+      "scores": {
+        "bucket_coverage_score": 40,
+        "evidence_strength_score": 16,
+        "overall_score": 56,
+        "classification": "accept_with_warnings"
+      },
+      "flags": {
+        "likely_teaser_or_summary": false,
+        "missing_core_buckets": [
+          "price_payment",
+          "reps_warranties",
+          "financials"
+        ],
+        "generic_language_without_details": false,
+        "unsupported_no_litigation_claim": false
+      }
+    }
+  }
+]
